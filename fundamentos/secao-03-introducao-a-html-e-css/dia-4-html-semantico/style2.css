@@ -1,0 +1,137 @@
+.italico {
+    font-style: italic;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+header {
+    margin: 0;
+    border: 1px solid rgb(44, 79, 94);
+    padding: 13px;
+    background: linear-gradient(-45deg, #e08164, #ec5d94, #48a8ca, #15cca1);
+    font-family:'Franklin Gothic Medium';
+}
+
+footer {
+    margin: 0;
+    padding: 5px;
+    background: linear-gradient(-45deg, #e99076, #e6578e, #5eb2d1, #15cca1);
+    border: 1px solid rgb(44, 79, 94);
+    font-family:'Franklin Gothic Medium';
+    text-align: center;
+}
+
+nav ul a {
+    display: inline-block;
+    width: 200px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium';
+}
+
+nav ul a:nth-of-type(1){
+    width: 250px;
+}
+
+nav {
+    padding: 2px;
+    border: 0;
+    border: 1px solid rgb(44, 79, 94);
+    background: linear-gradient(-45deg, #e27351, #eb4685, #48a0c0, #15cca1);
+}
+
+body {
+    background: linear-gradient(-45deg, #e27351, #eb4685, #48a0c0, #15cca1);
+    background-size: 180% 120%;
+    height: 100vh;
+}
+
+#info-geral {
+    text-decoration: underline;
+    background: linear-gradient(-45deg, #e27351, #eb4685, #48a0c0);
+    width: 172px;
+    border-radius: 30px;
+    padding-left: 12px;
+}
+
+#info-inter {
+    text-decoration: underline;
+    background: linear-gradient(-45deg, #e27351, #eb4685, #48a0c0);
+    width: 225px;
+    border-radius: 30px;
+    padding-left: 12px;
+}
+
+#visao {
+    text-decoration: underline;
+    background: linear-gradient(-45deg, #e27351, #eb4685, #48a0c0);
+    width: 165px;
+    border-radius: 30px;
+    padding-left: 12px;
+}
+
+#exo {
+    text-decoration: underline;
+    background: linear-gradient(-45deg, #e27351, #eb4685, #48a0c0);
+    width: 120px;
+    border-radius: 30px;
+    padding-left: 12px;
+}
+
+#soco {
+    text-decoration: underline;
+    background: linear-gradient(-45deg, #e27351, #eb4685, #48a0c0);
+    width: 220px;
+    border-radius: 30px;
+    padding-left: 12px;
+}
+
+#refer{
+    text-decoration: underline;
+    background: linear-gradient(-45deg, #e27351, #eb4685, #48a0c0);
+    width: 189px;
+    border-radius: 30px;
+    padding-left: 12px;
+}
+
+#video {
+    text-decoration: underline;
+    background: linear-gradient(-45deg, #e27351, #eb4685, #48a0c0);
+    width: 125px;
+    border-radius: 30px;
+    padding-left: 12px;
+}
+
+#img-inicial {
+    width: 700px;
+}
+
+img {
+max-width: 60%;
+}
+
+#fatos {
+    display: inline-block;
+    max-width: 85%;
+}
+
+p {
+    max-width: 60%;
+    font-size: 17px;
+}
+
+#gif {
+    float: right;
+    width: 450px;
+    max-width: 60%;
+}
+
+#socao {
+    margin-right: 200px;
+}
+
+#olho-zoom, #grafico-olho {
+    display: inline;
+    width: 550px;
+}

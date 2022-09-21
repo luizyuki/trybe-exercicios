@@ -13,4 +13,4 @@ console.log(birthYear);
 birthCity = 'São Vicente';
 
 console.log(birthCity);
-// Erro para trocar o valor da constante birtCity por ser uma const, tornando o valor único e não editável.
+// Erro para trocar o valor da constante birthCity por ser uma const, tornando o valor único e não editável.

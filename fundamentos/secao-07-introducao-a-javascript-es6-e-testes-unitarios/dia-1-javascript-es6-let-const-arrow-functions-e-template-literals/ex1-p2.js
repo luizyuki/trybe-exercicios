@@ -1,16 +1,10 @@
-const oddsAndEvens = [13, 3, 4, 10, 7, 2];
-
-const sortOddsAndEvens = (array) => {
-    for (let i = 1; i < array.length; i += 1) {
-        for (let i2 = 0; i2 < i; i2 += 1) {
-          if (array[i] < array[i2]) {
-              let position = array[i];
-              array[i] = array[i2];
-              array[i2] = position;
-            }
-        }
+const fatorial = (n) => {
+    let result = 1;
+    for (let i = 2; i <= n; i += 1) {
+        result *= i;
     }
-    return array
+    return result;
 };
 
-console.log(sortOddsAndEvens(oddsAndEvens));
+let funcao = fatorial(3);
+console.log(`Èsse é o fatorial ${funcao}`);
